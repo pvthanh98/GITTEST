@@ -1,5 +1,4 @@
-# NOTHING SPECIAL
-
+## Store collection
 ```javascript
 {
   email: {type:String, unique:true},
