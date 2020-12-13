@@ -24,3 +24,18 @@
   socket_id: String
 }
 ```
+## Customer collection
+```javascript
+{
+  email: {type:String, unique:true},
+  password: { type:String },
+  name:  String, 
+  image: {type:String, default:"default.png"},
+  address:   String,
+  latitude: {type: Number, default:-1},
+  longtitude: {type: Number, default:-1},
+  phone: {type:String, unique:true},
+  socket_id: String,
+  timestamp: { type: Date, default: Date.now }
+}
+```
