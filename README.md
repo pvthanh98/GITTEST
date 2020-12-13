@@ -1,6 +1,6 @@
 # NOTHING SPECIAL
 
-```json
+```javascript
 {
   email: {type:String, unique:true},
   password: { type:String },
